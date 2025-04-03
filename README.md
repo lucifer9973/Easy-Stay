@@ -1,40 +1,48 @@
 # Easy-Stay
 
-## 🏨 Overview
-**Easy-Stay** is a modern hotel booking application designed to simplify the process of finding and reserving accommodations. Built using **Android Studio and Kotlin**, it offers a seamless and user-friendly experience for travelers.
+## 🌍 Overview
+**Easy-Stay** is a modern hotel booking **website** designed to simplify the process of finding and reserving accommodations. Built using **HTML, CSS, JavaScript, and backend technologies**, it offers a seamless and user-friendly experience for travelers.
 
 ## 🚀 Features
 - 🔍 Search and filter hotels based on location, price, and amenities
 - 🏨 View detailed hotel descriptions, images, and ratings
 - 🛏️ Book rooms and manage reservations in real-time
-- 🔔 Push notifications for booking confirmations and reminders
+- 🔔 Email notifications for booking confirmations and reminders
 - 🌙 Dark mode support for a better user experience
 - 🔗 Secure payment integration (if applicable)
 
 ## 🛠️ Tech Stack
-- **Language:** Kotlin
-- **Framework:** Android Jetpack (ViewModel, LiveData, Room, Navigation)
-- **Database:** Firebase Firestore / Room Database
-- **UI:** XML & Jetpack Compose
+- **Frontend:** HTML, CSS, JavaScript, Bootstrap
+- **Backend:** Node.js, Express.js / Django / Flask (mention your stack)
+- **Database:** MongoDB / MySQL / PostgreSQL
 - **APIs:** Google Maps API, Payment Gateway (if integrated)
 
 ## 📂 Installation & Setup
 
 ### Prerequisites
-- Ensure you have [Android Studio](https://developer.android.com/studio) installed.
+- Ensure you have [Node.js](https://nodejs.org/) and a code editor like VS Code installed.
 
 ### Steps
 1. Clone the repository:
    ```sh
    git clone https://github.com/lucifer9973/Easy-Stay.git
    ```
-2. Open Android Studio and select **Open an Existing Project**.
-3. Navigate to the cloned repository and open the project.
-4. Sync the Gradle files and install dependencies.
-5. Run the app on an emulator or a physical device.
+2. Navigate to the project directory:
+   ```sh
+   cd Easy-Stay
+   ```
+3. Install dependencies:
+   ```sh
+   npm install  # If using Node.js
+   ```
+4. Start the server:
+   ```sh
+   npm start  # Or the relevant command for your backend
+   ```
+5. Open your browser and go to `http://localhost:3000` (or the relevant port) to access the website.
 
 ## 📸 Screenshots
-(Add screenshots or GIFs to showcase the app's UI)
+(Add screenshots or GIFs to showcase the website's UI)
 
 ## 🤝 Contributing
 Contributions are welcome! Follow these steps:
@@ -43,3 +51,9 @@ Contributions are welcome! Follow these steps:
 3. Commit your changes (`git commit -m 'Add new feature'`)
 4. Push to the branch (`git push origin feature-branch`)
 5. Open a Pull Request
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
+## 📬 Contact
+For any queries or suggestions, reach out at [your email or social media].
